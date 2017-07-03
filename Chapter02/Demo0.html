@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Chapter02 Demo0</title>
+	<script src="../jQuery/jquery-3.2.1.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(function() {
+			$("#demo").click(function(){
+				alert("jQuery Demo");
+			});
+		});
+
+		function demo() {
+			alert("Javascript Demo");
+		}
+	</script>
+</head>
+<body>
+	<p onclick="demo()">惦记我</p>
+	<p id="demo">click me</p>
+</body>
+</html>
